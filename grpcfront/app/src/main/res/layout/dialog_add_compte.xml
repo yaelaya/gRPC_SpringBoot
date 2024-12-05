@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F0F4F8">
+
+    <EditText
+        android:id="@+id/editTextSolde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Solde"
+        android:inputType="numberDecimal"
+        android:textColor="#333333"
+        android:textColorHint="#0C0C0C"
+        android:backgroundTint="#000000" />
+
+    <Spinner
+        android:id="@+id/spinnerTypeCompte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#FFFFFF"
+        android:popupBackground="#9C27B0"
+        android:textColor="#333333" />
+
+    <Button
+        android:id="@+id/btnSaveCompte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VALIDER"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#3F51B5" />
+</LinearLayout>
